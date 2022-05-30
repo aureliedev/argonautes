@@ -7,5 +7,5 @@ const memberSchema = mongoose.Schema({
 });
 
 memberSchema.plugin(uniqueValidator);
-/* IMPORT */
+/* EXPORT */
 module.exports = mongoose.model("Member", memberSchema);
