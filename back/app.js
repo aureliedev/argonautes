@@ -1,6 +1,8 @@
 /* IMPORT */
 const express = require("express");
 const mongoose = require("mongoose");
+const cors = require("cors");
+
 const membersCtrl = require("./controllers/members");
 
 const app = express();
@@ -19,10 +21,11 @@ mongoose
   .then(() => console.log("Connexion à MongoDB réussie !"))
   .catch(() => console.log("Connexion à MongoDB échouée !"));
 
+app.use(cors());
 app.use(express.json());
 
 /* ROUTES */
-app.post("/api/member", membersCtrl.addMember);
+app.post("/api/member", membersCtrl.addMembers);
 
 /* EXPORT */
 module.exports = app;
