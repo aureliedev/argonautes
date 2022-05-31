@@ -14,7 +14,7 @@ exports.addMembers = async (req, res) => {
   }
 };
 
-/* ---------------- GET TOUS LES MEMBREs------------------ */
+/* ---------------- GET TOUS LES MEMBRES------------------ */
 exports.getMembers = async (req, res) => {
   try {
     const members = await Member.find();
