@@ -2,6 +2,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const bodyParser = require("body-parser");
 
 const membersCtrl = require("./controllers/members");
 
@@ -24,8 +25,13 @@ mongoose
 app.use(cors());
 app.use(express.json());
 
+/* bodyParser: pr traiter la data en transit */
+app.use(bodyParser.json()); // Pr mettre la req au bon format
+app.use(bodyParser.urlencoded({ extended: true }));
+
 /* ROUTES */
 app.post("/api/member", membersCtrl.addMembers);
+app.get("/api/member", membersCtrl.getMembers);
 
 /* EXPORT */
 module.exports = app;
