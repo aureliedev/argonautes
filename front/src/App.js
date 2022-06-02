@@ -1,13 +1,15 @@
 import React from "react";
 import Header from "./composents/header/Header";
-import Main from "./composents/main/Main";
+import Form from "./composents/Main/form/Form";
+import Members from "./composents/Main/members/Members";
 import Footer from "./composents/footer/Footer";
 
 function App() {
   return (
     <div>
       <Header />
-      <Main />
+      <Form />
+      <Members />
       <Footer />
     </div>
   );
