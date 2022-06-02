@@ -1,8 +1,8 @@
 .header {
-    background: #f4f4f4;
+    background: #f9f9f9;
     text-align: center;
+    font-weight: 900;
     padding: 1rem;
-    margin-bottom: 1rem;
   }
 
   .header img {
