@@ -1,0 +1,28 @@
+.memberShow  {
+    background: #f8f3f3;
+    border-radius: 3rem;
+    margin: 2rem;
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+}
+.h2{
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: bold!important;
+}
+.membersList {
+    min-width: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    margin: 0 1rem 0 1rem;
+}
+.memberItem {
+    font-size: 1rem;
+    background: #F76C6C;
+    border-radius: 3rem;
+    padding: 0.5rem 1rem;
+    margin-block: 0.5rem;
+    color: white;
+    border: none;
+}

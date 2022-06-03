@@ -10,7 +10,7 @@ const MemberShow = (props) => {
       <div className="memberShow">
         <div className="members">
           {/* Member list */}
-          <h2 className="membersTitle">Membres de l'équipage</h2>
+          <h2 className="h2">Membres de l'équipage:</h2>
           <section className="membersList">
             {members.map((member) => (
               <div className="memberItem" key={member._id}>

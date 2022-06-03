@@ -26,8 +26,8 @@ const Form = () => {
   return (
     <div className="form">
       {/* New member form */}
-      <h2 className="formTitle">Ajouter un(e) Argonaute</h2>
-      <form action="" onSubmit={handleCreateMember} className="formNewMember">
+      <h2 className="h2">Ajouter un(e) Argonaute</h2>
+      <form action="" onSubmit={handleCreateMember} className="new-member-form">
         <label className="formLabel" htmlFor="name">
           Nom de l&apos;Argonaute
         </label>
