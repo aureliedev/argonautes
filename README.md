@@ -1,8 +1,8 @@
-# Projet MERN et React : Les argonautes pour la WSC
+# Les argonautes pour la WSC
 
 ### Le contexte
 
-Réaliser une application web d'aprés des consignes fournies.
+Réaliser une application web d'aprés des consignes fournies. (Projet MERN et React)
 
 ### Les consignes
 
@@ -12,5 +12,4 @@ Réaliser une application web d'aprés des consignes fournies.
 
 ### Le résultat
 
-Version selon maquette fournie initialement: [Les argonautes](https://codepen.io/wildcodeschool/pen/LYpoBBN)  
-Version avec fonctionnalité supplémentaires et design modifié: [Les argonautes](https://aureliedev.github.io/argonautes_MERN/) réalisé en MERN et React
+Version selon maquette fournie initialement: [Les argonautes](https://codepen.io/wildcodeschool/pen/LYpoBBN)
