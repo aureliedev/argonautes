@@ -22,7 +22,16 @@ mongoose
   .then(() => console.log("Connexion à MongoDB réussie !"))
   .catch(() => console.log("Connexion à MongoDB échouée !"));
 
-app.use(cors());
+const corsOption = {
+  origin: "http://localhost:3000",
+  credentials: true,
+  allowedHeaders: ["sessionId", "Content-Type"],
+  exposedHeaders: ["sessionId"],
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  preflightContinue: false,
+};
+app.use(cors(corsOption));
+
 app.use(express.json());
 
 /* bodyParser: pr traiter la data en transit */
